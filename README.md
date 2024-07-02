@@ -20,11 +20,18 @@ Per ogni evento, la tabella CSV contiene:
 - ENERGY:[TeV] Energia del neutrino più probabile che avrebbe prodotto questo evento. Calcolato assumendo un flusso di potenza di neutrini astrofisici E^(-2.19).
 - FAR: [yr^(-1)] Tasso di eventi di sfondo attesi per eventi di allarme a questa energia e posizione celeste.
 - SIGNAL: Probabilità che l'evento sia di origine astrofisica, calcolata assumendo un flusso di potenza di neutrini astrofisici E^(-2.19).
-- _SCR: Probabilità da classificatore basato su rete neurale convoluzionale post-allarme applicato a ciascun evento per distinguere meglio il segnale topologico di ciascun evento nel rilevatore
+- *_SCR: Probabilità da classificatore basato su rete neurale convoluzionale post-allarme applicato a ciascun evento per distinguere meglio il segnale topologico di ciascun evento nel rilevatore
 - THRGOING_SCR: Vertice primario dell'evento fuori dal rilevatore e una traccia simile a un muone è osservata passare attraverso il volume strumentato
 - START_SCR: Vertice primario dell'evento all'interno del volume strumentato e una traccia simile a un muone è osservata
 - CASCADE_SCR: Vertice primario dell'evento all'interno del volume strumentato e una doccia (traccia non simile a un muone) è osservata
 - SKIMMING_SCR: Vertice primario dell'evento fuori dal rilevatore e poca o nessuna energia depositata all'interno del volume strumentato
 - STOP_SCR: Vertice primario dell'evento fuori dal rilevatore e una traccia simile a un muone è osservata fermandosi nel volume strumentato
 - CR_VETO: Significativa attività di cascata di raggi cosmici in tempo rilevata nell'array di superficie IceTop, indicando che questo evento è probabilmente un evento di sfondo.
+
+
+# Referenze
+  - https://gcn.gsfc.nasa.gov/amon_icecube_gold_bronze_events.html
+  - https://gcn.gsfc.nasa.gov/doc/IceCube_High_Energy_Neutrino_Track_Alerts_v2.pdf
+  - https://gcn.gsfc.nasa.gov/amon_icecube_cascade_events.html
+  - https://arxiv.org/abs/2304.01174
 
