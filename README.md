@@ -1,4 +1,4 @@
-# IceCubeAllertDatabase
+# IceCube AlertDatabase
 [![DOI](https://sandbox.zenodo.org/badge/822978894.svg)](https://sandbox.zenodo.org/doi/10.5072/zenodo.78811)
 
 Questo catalogo raccoglie di avvisi delle allerte in tempo reale per tracce di tipo Gold e Bronze di IceCube e per gli eventi di tipo Cascade. Ogni voce rappresenta un singolo evento di neutrino potenzialmente di origine astrofisica. 
