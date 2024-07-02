@@ -12,19 +12,19 @@ Ogni voce è rappresentata da una voce nella tabella riassuntiva CSV.
 
 Per ogni evento, la tabella CSV contiene:
 
-RUNID,EVENTID: Combinazione unica di RunID e EventID dal sistema DAQ di IceCube\\
-START,EVENTMJD: Data/ora del rilevamento dell'evento\\
-I3TYPE: Identificazione del tipo di selezione dell'evento (vedi pubblicazione di supporto per i dettagli). Tipi gfu-gold, gfu-bronze, ehe-gold, hese-gold o hese-bronze
-OTHER_I3TYPES: Lista degli altri tipi di selezione di eventi I3TYPE che questo evento ha superato.
-RA,DEC [deg] (e _ERR): Migliore direzione di adattamento in coordinate equatoriali J2000, con confini rettangolari dell'errore CL asimmetrico al 90%.
-ENERGY:[TeV] Energia del neutrino più probabile che avrebbe prodotto questo evento. Calcolato assumendo un flusso di potenza di neutrini astrofisici E^(-2.19).
-FAR: [yr^(-1)] Tasso di eventi di sfondo attesi per eventi di allarme a questa energia e posizione celeste.
-SIGNAL: Probabilità che l'evento sia di origine astrofisica, calcolata assumendo un flusso di potenza di neutrini astrofisici E^(-2.19).
-*_SCR: Probabilità da classificatore basato su rete neurale convoluzionale post-allarme applicato a ciascun evento per distinguere meglio il segnale topologico di ciascun evento nel rilevatore
-THRGOING_SCR: Vertice primario dell'evento fuori dal rilevatore e una traccia simile a un muone è osservata passare attraverso il volume strumentato
-START_SCR: Vertice primario dell'evento all'interno del volume strumentato e una traccia simile a un muone è osservata
-CASCADE_SCR: Vertice primario dell'evento all'interno del volume strumentato e una doccia (traccia non simile a un muone) è osservata
-SKIMMING_SCR: Vertice primario dell'evento fuori dal rilevatore e poca o nessuna energia depositata all'interno del volume strumentato
-STOP_SCR: Vertice primario dell'evento fuori dal rilevatore e una traccia simile a un muone è osservata fermandosi nel volume strumentato
-CR_VETO: Significativa attività di cascata di raggi cosmici in tempo rilevata nell'array di superficie IceTop, indicando che questo evento è probabilmente un evento di sfondo.
+- RUNID,EVENTID: Combinazione unica di RunID e EventID dal sistema DAQ di IceCube\\
+- START,EVENTMJD: Data/ora del rilevamento dell'evento\\
+- I3TYPE: Identificazione del tipo di selezione dell'evento (vedi pubblicazione di supporto per i dettagli). Tipi gfu-gold, gfu-bronze, ehe-gold, hese-gold o hese-bronze
+- OTHER_I3TYPES: Lista degli altri tipi di selezione di eventi I3TYPE che questo evento ha superato.
+- RA,DEC [deg] (e _ERR): Migliore direzione di adattamento in coordinate equatoriali J2000, con confini rettangolari dell'errore CL asimmetrico al 90%.
+- ENERGY:[TeV] Energia del neutrino più probabile che avrebbe prodotto questo evento. Calcolato assumendo un flusso di potenza di neutrini astrofisici E^(-2.19).
+- FAR: [yr^(-1)] Tasso di eventi di sfondo attesi per eventi di allarme a questa energia e posizione celeste.
+- SIGNAL: Probabilità che l'evento sia di origine astrofisica, calcolata assumendo un flusso di potenza di neutrini astrofisici E^(-2.19).
+- _SCR: Probabilità da classificatore basato su rete neurale convoluzionale post-allarme applicato a ciascun evento per distinguere meglio il segnale topologico di ciascun evento nel rilevatore
+- THRGOING_SCR: Vertice primario dell'evento fuori dal rilevatore e una traccia simile a un muone è osservata passare attraverso il volume strumentato
+- START_SCR: Vertice primario dell'evento all'interno del volume strumentato e una traccia simile a un muone è osservata
+- CASCADE_SCR: Vertice primario dell'evento all'interno del volume strumentato e una doccia (traccia non simile a un muone) è osservata
+- SKIMMING_SCR: Vertice primario dell'evento fuori dal rilevatore e poca o nessuna energia depositata all'interno del volume strumentato
+- STOP_SCR: Vertice primario dell'evento fuori dal rilevatore e una traccia simile a un muone è osservata fermandosi nel volume strumentato
+- CR_VETO: Significativa attività di cascata di raggi cosmici in tempo rilevata nell'array di superficie IceTop, indicando che questo evento è probabilmente un evento di sfondo.
 
